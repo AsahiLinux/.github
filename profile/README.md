@@ -1,0 +1,7 @@
+[Asahi Linux](https://asahilinux.org) aims to bring you a polished Linux experience on Apple Silicon Macs. We [document the hardware](https://asahilinux.org/docs/), write drivers, and publish the [Fedora Asahi Remix distribution](https://asahilinux.org/fedora/).
+
+Our goal is not just to make Linux run on these machines but to polish it to the point where it can be used as a daily OS. Doing this requires a tremendous amount of work, as Apple Silicon is an entirely undocumented platform. You can reference our [device support tracker](https://asahilinux.org/fedora/#device-support) for information on supported models and features, with more details available in our [documentation](https://asahilinux.org/docs/platform/feature-support/overview/).
+
+Asahi Linux is developed by a [thriving community](https://asahilinux.org/community/) of free and open source software developers, and we welcome [contributions](https://asahilinux.org/contribute/).
+
+Porting Linux to Apple Silicon is no small task - certainly not something that can be accomplished only with spare-time hacking. You can financially support the project on [GitHub Sponsors](https://github.com/sponsors/AsahiLinux) and on [Open Collective](https://opencollective.com/asahilinux). Funds will be used to support the project by procuring hardware and funding contributors to work on software projects that Asahi Linux depends on as things advance.
