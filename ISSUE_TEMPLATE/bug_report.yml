@@ -1,0 +1,58 @@
+name: Bug Report
+description: |
+  Something not working? Think it should be working? Use this form
+  to report issues with supported features. Please do not use this
+  form for feature requests or help with unofficial/unsupported
+  features.
+title:
+type: bug
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: Description
+      description: |
+        Please provide a detailed description of the problem. What
+        actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Repro Steps
+      description: |
+        What were you doing when this happened? If it is easily reproducible,
+        please provide clear and detailed reproduction steps.
+      validations:
+        required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: |
+        What did you expect to happen under these conditions? This can be as
+        simple as not expecting anything to happen at all.
+      validations:
+        required: true
+  - type: upload
+    id: files
+    attributes:
+      label: Upload Files
+      description: |
+        Upload any logs or screenshots you feel may be useful. Please include the
+        output of `asahi-diagnose`.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Please agree to the following
+      description: |
+        We can only effectively action your bug report when all of these are true.
+      options:
+        - label: I have reproduced this on Fedora Asahi Remix
+          required: true
+        - label: I have isolated this issue to software vendored by Asahi Linux
+          required: true
+        - label: I am not acting as a meat proxy for an LLM
+          required: true
