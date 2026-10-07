@@ -1,9 +1,7 @@
 name: Bug Report
 description: |
   Something not working? Think it should be working? Use this form
-  to report issues with supported features. Please do not use this
-  form for feature requests or help with unofficial/unsupported
-  features.
+  to report issues with supported features.
 title: Please use a succinct title
 type: bug
 body:
